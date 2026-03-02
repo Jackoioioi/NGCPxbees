@@ -1,0 +1,12 @@
+2026-03-01 16:39:28,275: Log 0
+
+2026-03-01 16:39:28,275: LOGGER CREATED By XBee.py
+2026-03-01 16:39:28,275: port: /dev/cu.usbserial-D30DWZKY, baudrate: 115200, timeout: 0.1, config_file: None
+2026-03-01 16:39:28,275: Attempting to open serial XBee connection.
+2026-03-01 16:39:28,276: Error opening serial port: could not open port '/dev/cu.usbserial-D30DWZKY': FileNotFoundError(2, 'The system cannot find the path specified.', None, 3)
+2026-03-01 16:44:14,344: Log 0
+
+2026-03-01 16:44:14,344: LOGGER CREATED By XBee.py
+2026-03-01 16:44:14,345: port: COM6, baudrate: 115200, timeout: 0.1, config_file: None
+2026-03-01 16:44:14,345: Attempting to open serial XBee connection.
+2026-03-01 16:44:14,345: Error opening serial port: could not open port 'COM6': PermissionError(13, 'Access is denied.', None, 5)

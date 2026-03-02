@@ -1,0 +1,15 @@
+2026-03-01 16:51:08,672: Log 3
+
+2026-03-01 16:51:08,672: LOGGER CREATED By XBee.py
+2026-03-01 16:51:08,672: port: COM6, baudrate: 9600, timeout: 0.1, config_file: None
+2026-03-01 16:51:08,672: Attempting to open serial XBee connection.
+2026-03-01 16:51:08,693: Serial port opened.
+2026-03-01 16:51:08,693: Clearing input and output buffers.
+2026-03-01 16:51:10,522: Transmitting data:  to 0000000000000000
+2026-03-01 16:51:10,522: Encoded data: 7e 00 0b 00 01 00 00 00 00 00 00 00 00 00 fe 
+2026-03-01 16:51:17,951: Transmitting data: transmit this data to 0000000000000000
+2026-03-01 16:51:17,951: Encoded data: 7e 00 1d 00 02 00 00 00 00 00 00 00 00 00 74 72 61 6e 73 6d 69 74 20 74 68 69 73 20 64 61 74 61 f9 
+2026-03-01 16:51:23,173: Transmitting data: send data to 0000000000000000
+2026-03-01 16:51:23,174: Encoded data: 7e 00 14 00 03 00 00 00 00 00 00 00 00 00 73 65 6e 64 20 64 61 74 61 98 
+2026-03-01 16:51:31,168: Transmitting data: send data to 0000000000000000
+2026-03-01 16:51:31,168: Encoded data: 7e 00 14 00 04 00 00 00 00 00 00 00 00 00 73 65 6e 64 20 64 61 74 61 97 

@@ -1,0 +1,13 @@
+test/
+.DS_Store
+
+__pycache__/
+
+todo.txt
+
+*log.txt
+
+*/Logs*
+
+venv/
+UGV-Manual-Control/Logs*

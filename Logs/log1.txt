@@ -1,0 +1,7 @@
+2026-03-01 16:47:57,489: Log 1
+
+2026-03-01 16:47:57,489: LOGGER CREATED By XBee.py
+2026-03-01 16:47:57,490: port: COM6, baudrate: 115200, timeout: 0.1, config_file: None
+2026-03-01 16:47:57,490: Attempting to open serial XBee connection.
+2026-03-01 16:47:57,511: Serial port opened.
+2026-03-01 16:47:57,511: Clearing input and output buffers.
