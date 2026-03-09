@@ -9,7 +9,7 @@ from digi.xbee.devices import *
 # from Logs.Logger import Logger
 from Logger.Logger import Logger
 
-PORT = "COM3"
+PORT = "COM6"
 #PORT = "/dev/cu.usbserial-D30DWZKY"
 # PORT = "/dev/cu.usbserial-D30DWZL4"
 BAUD_RATE = 115200

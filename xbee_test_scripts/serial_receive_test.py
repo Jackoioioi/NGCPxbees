@@ -8,6 +8,8 @@ import sys
 ROOT = Path(__file__).resolve().parents[1]  # repo root
 sys.path.insert(0, str(ROOT))
 
+
+
 # sys.path.append('C:/Users/alber/OneDrive/Рабочий стол/Olena/gcs-infrastructure')
 # print(sys.path)
 
@@ -15,12 +17,12 @@ from Communication.XBee.XBee import XBee
 # from Logs.Logger import Logger
 from Logger.Logger import Logger
 
-PORT = "COM6"
+PORT = "COM8"
 #PORT = "/dev/cu.usbserial-D30DWZKY"
 # PORT = "/dev/cu.usbserial-D30DWZL4"
 BAUD_RATE = 9600
 #CONFIG_FILE = "AT_Command_List.txt"
-CONFIG_FILE = ""
+CONFIG_FILE = None
 
 LOGGER = Logger()
 

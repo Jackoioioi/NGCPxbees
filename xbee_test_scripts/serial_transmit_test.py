@@ -1,14 +1,16 @@
+from pathlib import Path
 import sys
-sys.path.insert(1, '../')
-# sys.path.append('C:/Users/alber/OneDrive/Рабочий стол/Olena/gcs-infrastructure')
+
+ROOT = Path(__file__).resolve().parents[1]  # repo root
+sys.path.insert(0, str(ROOT))
 
 from Communication.XBee.XBee import XBee
 
-PORT = "COM4"
+PORT = "COM8"
 #PORT = "/dev/cu.usbserial-D30DWZKY"
 # PORT = "/dev/cu.usbserial-D30DWZL4"
-BAUD_RATE = 115200
-DESTINATION = "0013A200428396C0"
+BAUD_RATE = 9600
+DESTINATION = "0013A20040F8063C"
 # 00 13 A2 00 42 43 5E A9
 def main():
     print("XBEE SERIAL TRANSMIT TEST")
@@ -20,6 +22,7 @@ def main():
         # Open serial connection
     try:
         xbee.open()
+        
     except Exception as e:
         print(f"Error: {e}")
 
